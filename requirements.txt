@@ -18,6 +18,7 @@ seaborn==0.10.1
 streamlit==0.62.0
 textblob==0.15.3
 twitterscraper==1.4.0
+toml==0.10.1
 yapf==0.28.0
 yarg==0.1.9
 zict==2.0.0
