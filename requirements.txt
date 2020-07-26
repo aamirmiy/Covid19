@@ -1,1 +1,10 @@
-SystemExit: 2
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+geopandas
+plotly
+descartes
+sklearn
+toml
