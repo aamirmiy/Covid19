@@ -80,7 +80,7 @@ if option == 'Map':
         state_wise_polairty_m = df_ms[['Place', 'Polarity', 'Month']]
         data_for_map_m = state_wise_polairty_m[state_wise_polairty_m['Month']=='March']
     
-        fp = "https://github.com/aamirmiy/Covid19/blob/master/stream/Indian_States.shp"
+        fp = "https://github.com/aamirmiy/Covid19/blob/master/stream/data_masters/Indian_States.shp"
         map_df = gpd.read_file(fp)
         
         merged_m = map_df.set_index('st_nm').join(data_for_map_m.set_index('Place'))
@@ -104,7 +104,7 @@ if option == 'Map':
         state_wise_polairty_a = df_as[['Place', 'Polarity', 'Month']]
         data_for_map_a = state_wise_polairty_a[state_wise_polairty_a['Month']=='April']
     
-        fp = "https://github.com/aamirmiy/Covid19/blob/master/stream/Indian_States.shp"
+        fp = "https://github.com/aamirmiy/Covid19/blob/master/stream/data_masters/Indian_States.shp"
         map_df = gpd.read_file(fp)
         
         merged_a = map_df.set_index('st_nm').join(data_for_map_a.set_index('Place'))
@@ -129,7 +129,7 @@ if option == 'Map':
         state_wise_polairty_may = df_mas[['Place', 'Polarity', 'Month']]
         data_for_map_may = state_wise_polairty_may[state_wise_polairty_may['Month']=='May']
     
-        fp = "https://github.com/aamirmiy/Covid19/blob/master/stream/Indian_States.shp"
+        fp = "https://github.com/aamirmiy/Covid19/blob/master/stream/data_masters/Indian_States.shp"
         map_df = gpd.read_file(fp)
     
         merged_may = map_df.set_index('st_nm').join(data_for_map_may.set_index('Place'))
@@ -154,7 +154,7 @@ if option == 'Map':
         state_wise_polairty_j = df_js[['Place', 'Polarity', 'Month']]
         data_for_map_j = state_wise_polairty_j[state_wise_polairty_j['Month']=='June']
     
-        fp = "https://github.com/aamirmiy/Covid19/blob/master/stream/Indian_States.shp"
+        fp = "https://github.com/aamirmiy/Covid19/blob/master/stream/data_masters/Indian_States.shp"
         map_df = gpd.read_file(fp)  
         
         merged_j = map_df.set_index('st_nm').join(data_for_map_j.set_index('Place'))
