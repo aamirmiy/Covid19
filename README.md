@@ -2,6 +2,7 @@
 
 temp.py contains code for scraping tweets from twitter.
 
-the main code is in Covid repository
+the main code with deployment files is in Covid repository https://github.com/aamirmiy/Covid
 
 twitter_covid19.ipynb contains the code used for processing the data collected.
+
