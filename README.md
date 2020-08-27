@@ -6,3 +6,4 @@ the main code with deployment files is in Covid repository https://github.com/aa
 
 twitter_covid19.ipynb contains the code used for processing the data collected.
 
+To view the deployed app visit https://sentiment-covid-analysis.herokuapp.com/
